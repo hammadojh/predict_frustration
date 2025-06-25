@@ -1,0 +1,33 @@
+{
+  "dataset_name": "EmoWOZ-Ahead",
+  "task": "one_turn_ahead_frustration_prediction",
+  "target_emotion": "dissatisfied",
+  "context_window": 3,
+  "splits": {
+    "train": {
+      "samples": 57241,
+      "positive_ratio": 0.07068360091542775,
+      "positive_count": 4046
+    },
+    "validation": {
+      "samples": 7409,
+      "positive_ratio": 0.06303144823862869,
+      "positive_count": 467
+    },
+    "test": {
+      "samples": 7534,
+      "positive_ratio": 0.080169896469339,
+      "positive_count": 604
+    }
+  },
+  "emotion_mapping": {
+    "0": "neutral",
+    "1": "fearful",
+    "2": "dissatisfied",
+    "3": "apologetic",
+    "4": "abusive",
+    "5": "excited",
+    "6": "satisfied",
+    "-1": "no_emotion"
+  }
+}
