@@ -204,10 +204,6 @@ secrets.yaml
 .env.local
 .env.production
 
-# Large result files
-results/*.json
-results/*.pkl
-results/*.csv
 
 # Exclude small summary files
 !results/*_summary.json
