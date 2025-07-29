@@ -268,3 +268,6 @@ huggingface_cache/
 # Keep documentation
 !docs/
 !*.md 
+
+#results
+results
